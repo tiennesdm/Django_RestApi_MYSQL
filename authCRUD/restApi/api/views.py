@@ -35,6 +35,7 @@ class SQLRAWQUERY():
 
                 cursor.execute("SELECT * FROM api_book")
                 data = cursor.fetchall()
+                print(data)
                 return JsonResponse(data, safe=False)
             elif request.method == 'POST':
 

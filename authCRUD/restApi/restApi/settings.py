@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     # Import Cors
     'corsheaders',
     ####### APP Import
-    'api.apps.ApiConfig'
+    'api.apps.ApiConfig',
+    'login.apps.LoginConfig'
     ####social Auth
     # 'django.contrib.sites',
     # 'allauth', # new
